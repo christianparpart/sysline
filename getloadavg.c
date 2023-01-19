@@ -60,6 +60,7 @@
    special installation to be able to call getloadavg.  */
 
 #include <sys/types.h>
+#include <unistd.h>
 
 /* Both the Emacs and non-Emacs sections want this.  Some
    configuration files' definitions for the LOAD_AVE_CVT macro (like
